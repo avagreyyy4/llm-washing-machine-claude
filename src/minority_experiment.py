@@ -269,11 +269,22 @@ def get_residual_at_head(model, prompt, head_word, layer=-1):
     return cache[layer_key][0, head_pos].cpu().numpy()
 
 
+def get_mean_residual(model, prompts, head_word, layer):
+    """
+    Extract residual stream at head_word position across multiple prompts
+    and return the mean vector.
+    """
+    vecs = []
+    for prompt in prompts:
+        vec = get_residual_at_head(model, prompt, head_word, layer=layer)
+        if vec is not None:
+            vecs.append(vec)
+    if not vecs:
+        return None
+    return np.mean(vecs, axis=0)
+
+
 def experiment_majority_minority_cosine(model, data):
-    """
-    For each (word1, word2) pair, compute cosine similarity between
-    head word in compound context vs head word in isolation across all layers.
-    """
     print("\n" + "="*70)
     print("COSINE SIMILARITY VS ASSOCIATION STRENGTH (ALL LAYERS)")
     print("="*70)
@@ -288,15 +299,16 @@ def experiment_majority_minority_cosine(model, data):
         log_rank = entry["log_rank"]
         priming_ratio = entry["priming_ratio"]
 
-        compound_prompt = f"The {word1} {word2}"
-        isolation_prompt = f"The {word2}"
+        # build one prompt per template for compound and isolation
+        compound_prompts  = [t.format(compound=f"{word1} {word2}") for t in TEMPLATES]
+        isolation_prompts = [t.format(compound=word2) for t in TEMPLATES]
 
         cos_per_layer = []
         skip = False
 
         for layer in range(n_layers):
-            compound_vec = get_residual_at_head(model, compound_prompt, word2, layer=layer)
-            isolation_vec = get_residual_at_head(model, isolation_prompt, word2, layer=layer)
+            compound_vec  = get_mean_residual(model, compound_prompts, word2, layer)
+            isolation_vec = get_mean_residual(model, isolation_prompts, word2, layer)
 
             if compound_vec is None or isolation_vec is None:
                 skip = True
@@ -360,12 +372,9 @@ def plot_cosine_vs_association_all_layers(results):
         ax = axes[row, 0]
         ax.plot(range(n_layers), slopes, 'b-o', linewidth=2, markersize=6)
         ax.axhline(y=0, color='k', linestyle='--', alpha=0.4)
-        for layer, p in enumerate(p_values):
-            if p < 0.05:
-                ax.scatter(layer, slopes[layer], color='red', s=100, zorder=5)
         ax.set_xlabel("Layer", fontsize=12)
         ax.set_ylabel("Slope", fontsize=12)
-        ax.set_title(f"Slope of {label} vs Cosine Similarity\n(red = p<0.05)", fontsize=11)
+        ax.set_title(f"Slope of {label} vs Cosine Similarity", fontsize=11)
 
         median = np.median(x)
         if higher_is_weaker:
@@ -420,7 +429,6 @@ def plot_cosine_vs_association_all_layers(results):
 # ── PART 1c: SAE Layerwise ──────────────────────────────────────────────
 
 TARGET_LAYERS = [0, 1, 2, 5, 8, 11]
-SKEW_SAE_LAYER = 0
 
 def experiment_sae_vs_association(model, data):
     """
@@ -428,7 +436,7 @@ def experiment_sae_vs_association(model, data):
     compound context and isolation contexts across multiple layers.
     Mirrors experiment1: compares compound vs word2-isolation, word1-isolation,
     and checks whether word1's representation shifts in compound context.
-    Uses resid_pre to match experiment1.
+    Uses resid_post to match experiment1.
     """
     print("\n" + "="*70)
     print("SAE FEATURE ANALYSIS (layers {})".format(TARGET_LAYERS))
@@ -454,21 +462,6 @@ def experiment_sae_vs_association(model, data):
         active = set(torch.where(acts > 0)[0].cpu().tolist())
         return active
 
-    def get_residual_pre(prompt, word, layer):
-        """Extract resid_pre at the position of word in prompt."""
-        tokens = model.to_tokens(prompt)
-        token_strs = [model.to_string([t]) for t in tokens[0]]
-        word_str = f" {word}"
-        pos = None
-        for i, ts in enumerate(token_strs):
-            if ts.lower() == word_str.lower():
-                pos = i
-                break
-        if pos is None:
-            return None
-        with torch.no_grad():
-            _, cache = model.run_with_cache(tokens)
-        return cache[f"blocks.{layer}.hook_resid_pre"][0, pos].cpu().numpy()
 
     results = []
 
@@ -479,31 +472,31 @@ def experiment_sae_vs_association(model, data):
         log_rank = entry["log_rank"]
         priming_ratio = entry["priming_ratio"]
 
-        compound_prompt   = f"The {word1} {word2}"
-        word2_iso_prompt  = f"The {word2}"
-        word1_iso_prompt  = f"The {word1}"
-
+        # build prompt lists once per compound
+        compound_prompts  = [t.format(compound=f"{word1} {word2}") for t in TEMPLATES]
+        word2_iso_prompts = [t.format(compound=word2) for t in TEMPLATES]
+        word1_iso_prompts = [t.format(compound=word1) for t in TEMPLATES]
         layer_metrics = {}
         skip = False
 
         for layer, sae in saes.items():
             # word2 in compound context
-            compound_vec = get_residual_pre(compound_prompt, word2, layer)
+            compound_vec = get_mean_residual(model, compound_prompts, word2, layer)
             # word2 in isolation
-            word2_iso_vec = get_residual_pre(word2_iso_prompt, word2, layer)
+            word2_iso_vec = get_mean_residual(model, word2_iso_prompts, word2, layer)
             # word1 in compound context
-            word1_compound_vec = get_residual_pre(compound_prompt, word1, layer)
+            word1_compound_vec = get_mean_residual(model, compound_prompts, word1, layer)
             # word1 in isolation
-            word1_iso_vec = get_residual_pre(word1_iso_prompt, word1, layer)
+            word1_iso_vec = get_mean_residual(model, word1_iso_prompts, word1, layer)
 
             if any(v is None for v in [compound_vec, word2_iso_vec, word1_compound_vec, word1_iso_vec]):
                 skip = True
                 break
 
-            compound_feats    = get_sae_features(compound_vec, sae)
-            word2_iso_feats   = get_sae_features(word2_iso_vec, sae)
-            word1_comp_feats  = get_sae_features(word1_compound_vec, sae)
-            word1_iso_feats   = get_sae_features(word1_iso_vec, sae)
+            compound_feats   = get_sae_features(compound_vec, sae)
+            word2_iso_feats  = get_sae_features(word2_iso_vec, sae)
+            word1_comp_feats = get_sae_features(word1_compound_vec, sae)
+            word1_iso_feats  = get_sae_features(word1_iso_vec, sae)
 
             # word2 metrics: how much does compound context change word2's features?
             unique_to_compound = compound_feats - word2_iso_feats
@@ -512,44 +505,38 @@ def experiment_sae_vs_association(model, data):
             frac_unique_w2 = len(unique_to_compound) / len(compound_feats) if compound_feats else 0
             jaccard_w2     = len(overlap_w2) / len(union_w2) if union_w2 else 0
 
-            # word1 modifier shift: does word1's representation change in compound context?
-            overlap_w1 = word1_comp_feats & word1_iso_feats
-            union_w1   = word1_comp_feats | word1_iso_feats
-            modifier_context_change = len(overlap_w1) / len(union_w1) if union_w1 else 0
-
             # overlap of compound word2 features with word1 isolation features
             overlap_compound_w1 = compound_feats & word1_iso_feats
             frac_overlap_w1 = len(overlap_compound_w1) / len(compound_feats) if compound_feats else 0
 
             layer_metrics[layer] = {
-                "frac_unique_w2":          round(frac_unique_w2, 4),
-                "jaccard_w2":              round(jaccard_w2, 4),
-                "modifier_context_change": round(modifier_context_change, 4),
-                "frac_overlap_w1":         round(frac_overlap_w1, 4),
-                "n_compound_feats":        len(compound_feats),
-                "n_word2_iso_feats":       len(word2_iso_feats),
-                "n_word1_comp_feats":      len(word1_comp_feats),
-                "n_word1_iso_feats":       len(word1_iso_feats),
-            }
+                    "frac_unique_w2":    round(frac_unique_w2, 4),
+                    "jaccard_w2":        round(jaccard_w2, 4),
+                    "frac_overlap_w1":   round(frac_overlap_w1, 4),
+                    "n_compound_feats":  len(compound_feats),
+                    "n_word2_iso_feats": len(word2_iso_feats),
+                    "n_word1_comp_feats": len(word1_comp_feats),
+                    "n_word1_iso_feats": len(word1_iso_feats),
+                }
 
         if skip:
             print(f"  Skipping ({word1}, {word2}): token not found")
             continue
 
         results.append({
-            "word1": word1,
-            "word2": word2,
-            "normalized_association": normalized_association,
-            "log_rank": log_rank,
-            "priming_ratio": priming_ratio,
-            "layer_metrics": layer_metrics,
-        })
+                "word1": word1,
+                "word2": word2,
+                "normalized_association": normalized_association,
+                "log_rank": log_rank,
+                "priming_ratio": priming_ratio,
+                "layer_metrics": layer_metrics,
+            })
 
         early = layer_metrics[TARGET_LAYERS[0]]
         late  = layer_metrics[TARGET_LAYERS[-1]]
         print(f"  {word1:12s} {word2:12s} | norm_assoc: {normalized_association:.4f} | "
-              f"frac_unique layer {TARGET_LAYERS[0]}: {early['frac_unique_w2']:.4f} "
-              f"-> layer {TARGET_LAYERS[-1]}: {late['frac_unique_w2']:.4f}")
+                  f"frac_unique layer {TARGET_LAYERS[0]}: {early['frac_unique_w2']:.4f} "
+                  f"-> layer {TARGET_LAYERS[-1]}: {late['frac_unique_w2']:.4f}")
 
     with open(RESULTS_DIR / "sae_vs_association.json", "w") as f:
         json.dump(results, f, indent=2)
@@ -568,7 +555,6 @@ def plot_sae_vs_association_strength(results):
     metrics = [
         ("frac_unique_w2",          "Frac Unique to Compound (word2)"),
         ("jaccard_w2",              "Jaccard: Compound vs Word2 Isolation"),
-        ("modifier_context_change", "Word1 Modifier Shift (Jaccard: compound vs isolation)"),
         ("frac_overlap_w1",         "Frac Compound Features Overlapping Word1"),
     ]
 
@@ -588,12 +574,9 @@ def plot_sae_vs_association_strength(results):
         ax = axes[row, 0]
         ax.plot(TARGET_LAYERS, slopes, 'b-o', linewidth=2, markersize=6)
         ax.axhline(y=0, color='k', linestyle='--', alpha=0.4)
-        for i, (layer, p) in enumerate(zip(TARGET_LAYERS, p_values)):
-            if p < 0.05:
-                ax.scatter(layer, slopes[i], color='red', s=100, zorder=5)
         ax.set_xlabel("Layer", fontsize=12)
         ax.set_ylabel("Slope (log_rank)", fontsize=12)
-        ax.set_title(f"Slope of log(Rank) vs {metric_label}\n(red = p<0.05)", fontsize=11)
+        ax.set_title(f"Slope of log(Rank) vs {metric_label}", fontsize=11)
         ax.set_xticks(TARGET_LAYERS)
 
         # Plot 2: scatter at earliest and latest layer
@@ -671,9 +654,9 @@ SENTENCE_GROUPS = {
         "minorities": ["table", "maker", "mug"],
         "sentences": [
             ("table", "He sat on the coffee"),
-            ("table", "They put a glass on the coffee"),
+            ("table", "They grabbed a glass from the coffee"),
             ("table", "She wiped down the coffee"),
-            ("maker", "She pressed the button on the coffee"),
+            ("maker", "He cleaned the coffee"),
             ("maker", "He emptied the coffee"),
             ("maker", "He used the coffee"),
             ("mug", "She picked up the coffee"),
@@ -685,14 +668,14 @@ SENTENCE_GROUPS = {
         "majority": "bike",
         "minorities": ["cabin", "lion", "range"],
         "sentences": [
-            ("cabin", "After the hike they rested in the mountain"),
-            ("cabin", "She booked a weekend stay at the mountain"),
-            ("cabin", "Smoke rose from the chimney of the mountain"),
-            ("lion", "The ranger warned them about the mountain"),
-            ("lion", "They heard a roar from the mountain"),
-            ("lion", "The wildlife camera captured a mountain"),
+            ("cabin", "They arrived at the mountain"),
+            ("cabin", "She cleaned the mountain"),
+            ("cabin", "He built the mountain"),
+            ("lion", "He warned them about the mountain"),
+            ("lion", "They were afraid of the mountain"),
+            ("lion", "The camera captured the mountain"),
             ("range", "The cattle grazed across the mountain"),
-            ("range", "She could see the entire mountain"),
+            ("range", "She photographed the long mountain"),
             ("range", "Geologists surveyed the mountain"),
         ]
     },
@@ -713,11 +696,6 @@ def run_sentence_prediction(model):
             continue
         majority_id = majority_id[0]
 
-        minority_ids = {}
-        for word in minorities:
-            tids = get_token_ids(model, word)
-            if len(tids) == 1:
-                minority_ids[word] = tids[0]
 
         print(f"\n{'='*70}")
         print(f"GROUP: {group_name} | majority: '{majority}' | minorities: {minorities}")
