@@ -1,0 +1,515 @@
+[
+  {
+    "word1": "washing",
+    "word2": "machine",
+    "probability": 0.827026,
+    "rank": 1.0,
+    "priming_ratio": 22200.77,
+    "normalized_association": 1.0,
+    "log_rank": 0.0
+  },
+  {
+    "word1": "washing",
+    "word2": "powder",
+    "probability": 0.002188,
+    "rank": 14.5,
+    "priming_ratio": 275.24,
+    "normalized_association": 0.0124,
+    "log_rank": 2.6741
+  },
+  {
+    "word1": "washing",
+    "word2": "method",
+    "probability": 0.000579,
+    "rank": 56.2,
+    "priming_ratio": 6.83,
+    "normalized_association": 0.0003,
+    "log_rank": 4.0289
+  },
+  {
+    "word1": "washing",
+    "word2": "cycle",
+    "probability": 0.000442,
+    "rank": 48.4,
+    "priming_ratio": 13.25,
+    "normalized_association": 0.0006,
+    "log_rank": 3.8795
+  },
+  {
+    "word1": "coffee",
+    "word2": "table",
+    "probability": 0.06318,
+    "rank": 4.1,
+    "priming_ratio": 434.7,
+    "normalized_association": 0.0732,
+    "log_rank": 1.411
+  },
+  {
+    "word1": "coffee",
+    "word2": "shop",
+    "probability": 0.241541,
+    "rank": 1.5,
+    "priming_ratio": 5939.77,
+    "normalized_association": 1.0,
+    "log_rank": 0.4055
+  },
+  {
+    "word1": "coffee",
+    "word2": "maker",
+    "probability": 0.022117,
+    "rank": 8.5,
+    "priming_ratio": 292.82,
+    "normalized_association": 0.0493,
+    "log_rank": 2.1401
+  },
+  {
+    "word1": "coffee",
+    "word2": "mug",
+    "probability": 0.025611,
+    "rank": 22.5,
+    "priming_ratio": 1714.37,
+    "normalized_association": 0.2886,
+    "log_rank": 3.1135
+  },
+  {
+    "word1": "swimming",
+    "word2": "pool",
+    "probability": 0.625838,
+    "rank": 1.0,
+    "priming_ratio": 20022.46,
+    "normalized_association": 1.0,
+    "log_rank": 0.0
+  },
+  {
+    "word1": "swimming",
+    "word2": "suit",
+    "probability": 0.015037,
+    "rank": 9.5,
+    "priming_ratio": 155.76,
+    "normalized_association": 0.0078,
+    "log_rank": 2.2513
+  },
+  {
+    "word1": "swimming",
+    "word2": "lesson",
+    "probability": 0.010282,
+    "rank": 12.8,
+    "priming_ratio": 184.2,
+    "normalized_association": 0.0092,
+    "log_rank": 2.5494
+  },
+  {
+    "word1": "swimming",
+    "word2": "team",
+    "probability": 0.005963,
+    "rank": 23.0,
+    "priming_ratio": 3.46,
+    "normalized_association": 0.0002,
+    "log_rank": 3.1355
+  },
+  {
+    "word1": "parking",
+    "word2": "lot",
+    "probability": 0.321534,
+    "rank": 1.1,
+    "priming_ratio": 6161.73,
+    "normalized_association": 0.8635,
+    "log_rank": 0.0953
+  },
+  {
+    "word1": "parking",
+    "word2": "meter",
+    "probability": 0.048436,
+    "rank": 3.6,
+    "priming_ratio": 7135.89,
+    "normalized_association": 1.0,
+    "log_rank": 1.2809
+  },
+  {
+    "word1": "parking",
+    "word2": "garage",
+    "probability": 0.058563,
+    "rank": 4.1,
+    "priming_ratio": 4000.79,
+    "normalized_association": 0.5607,
+    "log_rank": 1.411
+  },
+  {
+    "word1": "parking",
+    "word2": "ticket",
+    "probability": 0.035485,
+    "rank": 10.6,
+    "priming_ratio": 1313.14,
+    "normalized_association": 0.184,
+    "log_rank": 2.3609
+  },
+  {
+    "word1": "hot",
+    "word2": "dog",
+    "probability": 0.097322,
+    "rank": 3.5,
+    "priming_ratio": 509.55,
+    "normalized_association": 0.0868,
+    "log_rank": 1.2528
+  },
+  {
+    "word1": "hot",
+    "word2": "tub",
+    "probability": 0.038084,
+    "rank": 10.2,
+    "priming_ratio": 5873.49,
+    "normalized_association": 1.0,
+    "log_rank": 2.3224
+  },
+  {
+    "word1": "hot",
+    "word2": "spring",
+    "probability": 0.006449,
+    "rank": 22.6,
+    "priming_ratio": 99.63,
+    "normalized_association": 0.017,
+    "log_rank": 3.1179
+  },
+  {
+    "word1": "hot",
+    "word2": "sauce",
+    "probability": 0.009538,
+    "rank": 24.4,
+    "priming_ratio": 941.14,
+    "normalized_association": 0.1602,
+    "log_rank": 3.1946
+  },
+  {
+    "word1": "living",
+    "word2": "room",
+    "probability": 0.261154,
+    "rank": 2.4,
+    "priming_ratio": 2261.42,
+    "normalized_association": 0.7119,
+    "log_rank": 0.8755
+  },
+  {
+    "word1": "living",
+    "word2": "wage",
+    "probability": 0.046641,
+    "rank": 15.2,
+    "priming_ratio": 3176.8,
+    "normalized_association": 1.0,
+    "log_rank": 2.7213
+  },
+  {
+    "word1": "living",
+    "word2": "standard",
+    "probability": 0.000957,
+    "rank": 198.8,
+    "priming_ratio": 4.9,
+    "normalized_association": 0.0015,
+    "log_rank": 5.2923
+  },
+  {
+    "word1": "living",
+    "word2": "conditions",
+    "probability": 0.005746,
+    "rank": 1834.0,
+    "priming_ratio": 77.24,
+    "normalized_association": 0.0243,
+    "log_rank": 7.5143
+  },
+  {
+    "word1": "guinea",
+    "word2": "pig",
+    "probability": 0.832662,
+    "rank": 1.0,
+    "priming_ratio": 37773.32,
+    "normalized_association": 1.0,
+    "log_rank": 0.0
+  },
+  {
+    "word1": "guinea",
+    "word2": "worm",
+    "probability": 0.013836,
+    "rank": 3.5,
+    "priming_ratio": 2064.53,
+    "normalized_association": 0.0547,
+    "log_rank": 1.2528
+  },
+  {
+    "word1": "brick",
+    "word2": "house",
+    "probability": 0.02734,
+    "rank": 11.1,
+    "priming_ratio": 77.08,
+    "normalized_association": 0.0384,
+    "log_rank": 2.4069
+  },
+  {
+    "word1": "brick",
+    "word2": "wall",
+    "probability": 0.171613,
+    "rank": 2.0,
+    "priming_ratio": 2007.18,
+    "normalized_association": 1.0,
+    "log_rank": 0.6931
+  },
+  {
+    "word1": "brick",
+    "word2": "layer",
+    "probability": 0.000401,
+    "rank": 414.5,
+    "priming_ratio": 88.72,
+    "normalized_association": 0.0442,
+    "log_rank": 6.0271
+  },
+  {
+    "word1": "brick",
+    "word2": "road",
+    "probability": 0.005339,
+    "rank": 34.5,
+    "priming_ratio": 20.07,
+    "normalized_association": 0.01,
+    "log_rank": 3.541
+  },
+  {
+    "word1": "mountain",
+    "word2": "cabin",
+    "probability": 0.00397,
+    "rank": 149.0,
+    "priming_ratio": 190.78,
+    "normalized_association": 0.1812,
+    "log_rank": 5.0039
+  },
+  {
+    "word1": "mountain",
+    "word2": "bike",
+    "probability": 0.086072,
+    "rank": 8.8,
+    "priming_ratio": 1052.71,
+    "normalized_association": 1.0,
+    "log_rank": 2.1748
+  },
+  {
+    "word1": "mountain",
+    "word2": "lion",
+    "probability": 0.024613,
+    "rank": 13.4,
+    "priming_ratio": 316.88,
+    "normalized_association": 0.301,
+    "log_rank": 2.5953
+  },
+  {
+    "word1": "mountain",
+    "word2": "range",
+    "probability": 0.022381,
+    "rank": 8.0,
+    "priming_ratio": 150.86,
+    "normalized_association": 0.1433,
+    "log_rank": 2.0794
+  },
+  {
+    "word1": "garden",
+    "word2": "hose",
+    "probability": 0.023498,
+    "rank": 12.0,
+    "priming_ratio": 8468.64,
+    "normalized_association": 1.0,
+    "log_rank": 2.4849
+  },
+  {
+    "word1": "garden",
+    "word2": "shed",
+    "probability": 0.01047,
+    "rank": 23.6,
+    "priming_ratio": 3718.34,
+    "normalized_association": 0.4391,
+    "log_rank": 3.1612
+  },
+  {
+    "word1": "garden",
+    "word2": "fence",
+    "probability": 0.006975,
+    "rank": 100.8,
+    "priming_ratio": 347.46,
+    "normalized_association": 0.041,
+    "log_rank": 4.6131
+  },
+  {
+    "word1": "garden",
+    "word2": "party",
+    "probability": 0.0027,
+    "rank": 79.1,
+    "priming_ratio": 8.42,
+    "normalized_association": 0.001,
+    "log_rank": 4.3707
+  },
+  {
+    "word1": "water",
+    "word2": "bottle",
+    "probability": 0.065615,
+    "rank": 16.6,
+    "priming_ratio": 2916.62,
+    "normalized_association": 0.2818,
+    "log_rank": 2.8094
+  },
+  {
+    "word1": "water",
+    "word2": "supply",
+    "probability": 0.026709,
+    "rank": 8.4,
+    "priming_ratio": 616.98,
+    "normalized_association": 0.0596,
+    "log_rank": 2.1282
+  },
+  {
+    "word1": "water",
+    "word2": "heater",
+    "probability": 0.025871,
+    "rank": 9.9,
+    "priming_ratio": 10348.79,
+    "normalized_association": 1.0,
+    "log_rank": 2.2925
+  },
+  {
+    "word1": "steel",
+    "word2": "bridge",
+    "probability": 0.004613,
+    "rank": 53.4,
+    "priming_ratio": 61.5,
+    "normalized_association": 0.0373,
+    "log_rank": 3.9778
+  },
+  {
+    "word1": "steel",
+    "word2": "frame",
+    "probability": 0.019518,
+    "rank": 4.9,
+    "priming_ratio": 618.48,
+    "normalized_association": 0.3755,
+    "log_rank": 1.5892
+  },
+  {
+    "word1": "steel",
+    "word2": "cage",
+    "probability": 0.018893,
+    "rank": 7.2,
+    "priming_ratio": 1646.96,
+    "normalized_association": 1.0,
+    "log_rank": 1.9741
+  },
+  {
+    "word1": "steel",
+    "word2": "plate",
+    "probability": 0.014286,
+    "rank": 13.8,
+    "priming_ratio": 1491.49,
+    "normalized_association": 0.9056,
+    "log_rank": 2.6247
+  },
+  {
+    "word1": "chocolate",
+    "word2": "cake",
+    "probability": 0.035645,
+    "rank": 5.2,
+    "priming_ratio": 1971.99,
+    "normalized_association": 0.4678,
+    "log_rank": 1.6487
+  },
+  {
+    "word1": "chocolate",
+    "word2": "chip",
+    "probability": 0.094805,
+    "rank": 1.9,
+    "priming_ratio": 4215.36,
+    "normalized_association": 1.0,
+    "log_rank": 0.6419
+  },
+  {
+    "word1": "chocolate",
+    "word2": "factory",
+    "probability": 0.014946,
+    "rank": 15.6,
+    "priming_ratio": 263.87,
+    "normalized_association": 0.0626,
+    "log_rank": 2.7473
+  },
+  {
+    "word1": "chocolate",
+    "word2": "bar",
+    "probability": 0.104889,
+    "rank": 1.5,
+    "priming_ratio": 676.62,
+    "normalized_association": 0.1605,
+    "log_rank": 0.4055
+  },
+  {
+    "word1": "door",
+    "word2": "handle",
+    "probability": 0.00684,
+    "rank": 41.9,
+    "priming_ratio": 235.15,
+    "normalized_association": 1.0,
+    "log_rank": 3.7353
+  },
+  {
+    "word1": "door",
+    "word2": "bell",
+    "probability": 0.000407,
+    "rank": 221.0,
+    "priming_ratio": 24.7,
+    "normalized_association": 0.105,
+    "log_rank": 5.3982
+  },
+  {
+    "word1": "door",
+    "word2": "frame",
+    "probability": 0.007358,
+    "rank": 48.0,
+    "priming_ratio": 233.14,
+    "normalized_association": 0.9915,
+    "log_rank": 3.8712
+  },
+  {
+    "word1": "door",
+    "word2": "step",
+    "probability": 0.000565,
+    "rank": 168.9,
+    "priming_ratio": 13.57,
+    "normalized_association": 0.0577,
+    "log_rank": 5.1293
+  },
+  {
+    "word1": "snow",
+    "word2": "man",
+    "probability": 0.003797,
+    "rank": 62.9,
+    "priming_ratio": 1.6,
+    "normalized_association": 0.0081,
+    "log_rank": 4.1415
+  },
+  {
+    "word1": "snow",
+    "word2": "storm",
+    "probability": 0.019687,
+    "rank": 34.4,
+    "priming_ratio": 196.41,
+    "normalized_association": 1.0,
+    "log_rank": 3.5381
+  },
+  {
+    "word1": "snow",
+    "word2": "board",
+    "probability": 0.0014,
+    "rank": 100.0,
+    "priming_ratio": 5.06,
+    "normalized_association": 0.0258,
+    "log_rank": 4.6052
+  },
+  {
+    "word1": "snow",
+    "word2": "fall",
+    "probability": 0.001194,
+    "rank": 112.2,
+    "priming_ratio": 4.09,
+    "normalized_association": 0.0208,
+    "log_rank": 4.7203
+  }
+]

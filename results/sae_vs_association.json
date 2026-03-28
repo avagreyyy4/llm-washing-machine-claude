@@ -1,0 +1,3797 @@
+[
+  {
+    "word1": "washing",
+    "word2": "machine",
+    "normalized_association": 1.0,
+    "log_rank": 0.0,
+    "priming_ratio": 22200.77,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.5833,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 22,
+        "n_word1_iso_feats": 22
+      },
+      "1": {
+        "frac_unique_w2": 0.6316,
+        "jaccard_w2": 0.2917,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2632,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 21,
+        "n_word1_iso_feats": 21
+      },
+      "2": {
+        "frac_unique_w2": 0.697,
+        "jaccard_w2": 0.25,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2727,
+        "n_compound_feats": 33,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 20,
+        "n_word1_iso_feats": 20
+      },
+      "5": {
+        "frac_unique_w2": 0.7843,
+        "jaccard_w2": 0.1692,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1569,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 25,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      },
+      "8": {
+        "frac_unique_w2": 0.7703,
+        "jaccard_w2": 0.1574,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1757,
+        "n_compound_feats": 74,
+        "n_word2_iso_feats": 51,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      },
+      "11": {
+        "frac_unique_w2": 0.6296,
+        "jaccard_w2": 0.241,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2222,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 57,
+        "n_word1_iso_feats": 57
+      }
+    }
+  },
+  {
+    "word1": "washing",
+    "word2": "powder",
+    "normalized_association": 0.0124,
+    "log_rank": 2.6741,
+    "priming_ratio": 275.24,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3,
+        "jaccard_w2": 0.5385,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 22,
+        "n_word1_iso_feats": 22
+      },
+      "1": {
+        "frac_unique_w2": 0.3529,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4706,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 21,
+        "n_word1_iso_feats": 21
+      },
+      "2": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.3548,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3182,
+        "n_compound_feats": 22,
+        "n_word2_iso_feats": 20,
+        "n_word1_comp_feats": 20,
+        "n_word1_iso_feats": 20
+      },
+      "5": {
+        "frac_unique_w2": 0.7647,
+        "jaccard_w2": 0.1714,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1765,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 31,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      },
+      "8": {
+        "frac_unique_w2": 0.72,
+        "jaccard_w2": 0.2121,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2,
+        "n_compound_feats": 75,
+        "n_word2_iso_feats": 45,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      },
+      "11": {
+        "frac_unique_w2": 0.7353,
+        "jaccard_w2": 0.1552,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1471,
+        "n_compound_feats": 68,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 57,
+        "n_word1_iso_feats": 57
+      }
+    }
+  },
+  {
+    "word1": "washing",
+    "word2": "method",
+    "normalized_association": 0.0003,
+    "log_rank": 4.0289,
+    "priming_ratio": 6.83,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.4286,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4167,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 22,
+        "n_word1_iso_feats": 22
+      },
+      "1": {
+        "frac_unique_w2": 0.1667,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 21,
+        "n_word1_iso_feats": 21
+      },
+      "2": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5714,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 20,
+        "n_word1_iso_feats": 20
+      },
+      "5": {
+        "frac_unique_w2": 0.8,
+        "jaccard_w2": 0.1571,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1273,
+        "n_compound_feats": 55,
+        "n_word2_iso_feats": 26,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      },
+      "8": {
+        "frac_unique_w2": 0.7059,
+        "jaccard_w2": 0.2174,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1176,
+        "n_compound_feats": 68,
+        "n_word2_iso_feats": 44,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      },
+      "11": {
+        "frac_unique_w2": 0.6721,
+        "jaccard_w2": 0.2041,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1311,
+        "n_compound_feats": 61,
+        "n_word2_iso_feats": 57,
+        "n_word1_comp_feats": 57,
+        "n_word1_iso_feats": 57
+      }
+    }
+  },
+  {
+    "word1": "washing",
+    "word2": "cycle",
+    "normalized_association": 0.0006,
+    "log_rank": 3.8795,
+    "priming_ratio": 13.25,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2727,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 22,
+        "n_word1_iso_feats": 22
+      },
+      "1": {
+        "frac_unique_w2": 0.1538,
+        "jaccard_w2": 0.7333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6154,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 21,
+        "n_word1_iso_feats": 21
+      },
+      "2": {
+        "frac_unique_w2": 0.3889,
+        "jaccard_w2": 0.4783,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 20,
+        "n_word1_iso_feats": 20
+      },
+      "5": {
+        "frac_unique_w2": 0.72,
+        "jaccard_w2": 0.2154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.16,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      },
+      "8": {
+        "frac_unique_w2": 0.72,
+        "jaccard_w2": 0.21,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.12,
+        "n_compound_feats": 75,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      },
+      "11": {
+        "frac_unique_w2": 0.7636,
+        "jaccard_w2": 0.1605,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1273,
+        "n_compound_feats": 55,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 57,
+        "n_word1_iso_feats": 57
+      }
+    }
+  },
+  {
+    "word1": "coffee",
+    "word2": "table",
+    "normalized_association": 0.0732,
+    "log_rank": 1.411,
+    "priming_ratio": 434.7,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.4615,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.375,
+        "jaccard_w2": 0.5556,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.64,
+        "jaccard_w2": 0.3,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.28,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.8431,
+        "jaccard_w2": 0.1159,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1373,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 26,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.7966,
+        "jaccard_w2": 0.1395,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2712,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.7551,
+        "jaccard_w2": 0.1714,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2449,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 33,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "coffee",
+    "word2": "shop",
+    "normalized_association": 1.0,
+    "log_rank": 0.4055,
+    "priming_ratio": 5939.77,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.5294,
+        "jaccard_w2": 0.3636,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4118,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.6923,
+        "jaccard_w2": 0.2424,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2308,
+        "n_compound_feats": 26,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.6939,
+        "jaccard_w2": 0.2113,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1837,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 37,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.6471,
+        "jaccard_w2": 0.2553,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3088,
+        "n_compound_feats": 68,
+        "n_word2_iso_feats": 50,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.2424,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.25,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 34,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "coffee",
+    "word2": "maker",
+    "normalized_association": 0.0493,
+    "log_rank": 2.1401,
+    "priming_ratio": 292.82,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.1818,
+        "jaccard_w2": 0.6429,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.5926,
+        "jaccard_w2": 0.3667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2593,
+        "n_compound_feats": 27,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.6,
+        "jaccard_w2": 0.303,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.24,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.6939,
+        "jaccard_w2": 0.2308,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1429,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 31,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.6618,
+        "jaccard_w2": 0.2473,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2941,
+        "n_compound_feats": 68,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.5714,
+        "jaccard_w2": 0.2019,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2245,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 76,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "coffee",
+    "word2": "mug",
+    "normalized_association": 0.2886,
+    "log_rank": 3.1135,
+    "priming_ratio": 1714.37,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.6316,
+        "jaccard_w2": 0.3043,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4211,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.5417,
+        "jaccard_w2": 0.3929,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 24,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.7458,
+        "jaccard_w2": 0.1807,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1695,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.5534,
+        "jaccard_w2": 0.3333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2427,
+        "n_compound_feats": 103,
+        "n_word2_iso_feats": 81,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.5921,
+        "jaccard_w2": 0.2844,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2763,
+        "n_compound_feats": 76,
+        "n_word2_iso_feats": 64,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "swimming",
+    "word2": "pool",
+    "normalized_association": 1.0,
+    "log_rank": 0.0,
+    "priming_ratio": 20022.46,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.2857,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2917,
+        "n_compound_feats": 24,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "2": {
+        "frac_unique_w2": 0.68,
+        "jaccard_w2": 0.2424,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.28,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.8542,
+        "jaccard_w2": 0.1045,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2083,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 26,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.5455,
+        "jaccard_w2": 0.3165,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3273,
+        "n_compound_feats": 55,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.614,
+        "jaccard_w2": 0.2933,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2982,
+        "n_compound_feats": 57,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      }
+    }
+  },
+  {
+    "word1": "swimming",
+    "word2": "suit",
+    "normalized_association": 0.0078,
+    "log_rank": 2.2513,
+    "priming_ratio": 155.76,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3077,
+        "jaccard_w2": 0.6923,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5385,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.4211,
+        "jaccard_w2": 0.44,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3684,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "2": {
+        "frac_unique_w2": 0.35,
+        "jaccard_w2": 0.5652,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.35,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.8136,
+        "jaccard_w2": 0.1528,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1525,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 24,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.7414,
+        "jaccard_w2": 0.1829,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2414,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.8627,
+        "jaccard_w2": 0.0959,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1765,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      }
+    }
+  },
+  {
+    "word1": "swimming",
+    "word2": "lesson",
+    "normalized_association": 0.0092,
+    "log_rank": 2.5494,
+    "priming_ratio": 184.2,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.5833,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6667,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5333,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "2": {
+        "frac_unique_w2": 0.2353,
+        "jaccard_w2": 0.6842,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4118,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.8261,
+        "jaccard_w2": 0.1395,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1304,
+        "n_compound_feats": 69,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.8608,
+        "jaccard_w2": 0.1028,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1646,
+        "n_compound_feats": 79,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.72,
+        "jaccard_w2": 0.1728,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.18,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 45,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      }
+    }
+  },
+  {
+    "word1": "swimming",
+    "word2": "team",
+    "normalized_association": 0.0002,
+    "log_rank": 3.1355,
+    "priming_ratio": 3.46,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.375,
+        "jaccard_w2": 0.4545,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "2": {
+        "frac_unique_w2": 0.4762,
+        "jaccard_w2": 0.4231,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.7273,
+        "jaccard_w2": 0.2105,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1818,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 25,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.7746,
+        "jaccard_w2": 0.1882,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1549,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 30,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      },
+      "11": {
+        "frac_unique_w2": 0.6842,
+        "jaccard_w2": 0.2195,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2105,
+        "n_compound_feats": 57,
+        "n_word2_iso_feats": 43,
+        "n_word1_comp_feats": 53,
+        "n_word1_iso_feats": 53
+      }
+    }
+  },
+  {
+    "word1": "parking",
+    "word2": "lot",
+    "normalized_association": 0.8635,
+    "log_rank": 0.0953,
+    "priming_ratio": 6161.73,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.56,
+        "jaccard_w2": 0.3548,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.28,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5652,
+        "jaccard_w2": 0.3448,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3043,
+        "n_compound_feats": 23,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.8776,
+        "jaccard_w2": 0.0811,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2041,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 31,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.8065,
+        "jaccard_w2": 0.1333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2581,
+        "n_compound_feats": 62,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.8649,
+        "jaccard_w2": 0.1,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1757,
+        "n_compound_feats": 74,
+        "n_word2_iso_feats": 36,
+        "n_word1_comp_feats": 54,
+        "n_word1_iso_feats": 54
+      }
+    }
+  },
+  {
+    "word1": "parking",
+    "word2": "meter",
+    "normalized_association": 1.0,
+    "log_rank": 1.2809,
+    "priming_ratio": 7135.89,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2727,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5455,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.4242,
+        "jaccard_w2": 0.5278,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.303,
+        "n_compound_feats": 33,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5455,
+        "jaccard_w2": 0.4167,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2273,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 24,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.6567,
+        "jaccard_w2": 0.2556,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.194,
+        "n_compound_feats": 67,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.4769,
+        "jaccard_w2": 0.3434,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2615,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 68,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.4648,
+        "jaccard_w2": 0.3423,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2958,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 78,
+        "n_word1_comp_feats": 54,
+        "n_word1_iso_feats": 54
+      }
+    }
+  },
+  {
+    "word1": "parking",
+    "word2": "garage",
+    "normalized_association": 0.5607,
+    "log_rank": 1.411,
+    "priming_ratio": 4000.79,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3846,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4615,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.55,
+        "jaccard_w2": 0.3913,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5217,
+        "jaccard_w2": 0.4074,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4783,
+        "n_compound_feats": 23,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.6585,
+        "jaccard_w2": 0.2373,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2195,
+        "n_compound_feats": 41,
+        "n_word2_iso_feats": 32,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.6129,
+        "jaccard_w2": 0.2697,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1935,
+        "n_compound_feats": 62,
+        "n_word2_iso_feats": 51,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.6393,
+        "jaccard_w2": 0.2418,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2131,
+        "n_compound_feats": 61,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 54,
+        "n_word1_iso_feats": 54
+      }
+    }
+  },
+  {
+    "word1": "parking",
+    "word2": "ticket",
+    "normalized_association": 0.184,
+    "log_rank": 2.3609,
+    "priming_ratio": 1313.14,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.25,
+        "jaccard_w2": 0.7059,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5625,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.56,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4762,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "5": {
+        "frac_unique_w2": 0.7358,
+        "jaccard_w2": 0.209,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1887,
+        "n_compound_feats": 53,
+        "n_word2_iso_feats": 28,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.7069,
+        "jaccard_w2": 0.2024,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2414,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 43,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.5574,
+        "jaccard_w2": 0.3253,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2295,
+        "n_compound_feats": 61,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 54,
+        "n_word1_iso_feats": 54
+      }
+    }
+  },
+  {
+    "word1": "hot",
+    "word2": "dog",
+    "normalized_association": 0.0868,
+    "log_rank": 1.2528,
+    "priming_ratio": 509.55,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3636,
+        "jaccard_w2": 0.5385,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.6316,
+        "jaccard_w2": 0.3182,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2632,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.2727,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3704,
+        "n_compound_feats": 27,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 18,
+        "n_word1_iso_feats": 18
+      },
+      "5": {
+        "frac_unique_w2": 0.7963,
+        "jaccard_w2": 0.1692,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1667,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.6935,
+        "jaccard_w2": 0.2375,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1613,
+        "n_compound_feats": 62,
+        "n_word2_iso_feats": 37,
+        "n_word1_comp_feats": 44,
+        "n_word1_iso_feats": 44
+      },
+      "11": {
+        "frac_unique_w2": 0.7,
+        "jaccard_w2": 0.1852,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.18,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      }
+    }
+  },
+  {
+    "word1": "hot",
+    "word2": "tub",
+    "normalized_association": 1.0,
+    "log_rank": 2.3224,
+    "priming_ratio": 5873.49,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.0986,
+        "jaccard_w2": 0.8767,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0845,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.3889,
+        "jaccard_w2": 0.5238,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3889,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5417,
+        "jaccard_w2": 0.3793,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.375,
+        "n_compound_feats": 24,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 18,
+        "n_word1_iso_feats": 18
+      },
+      "5": {
+        "frac_unique_w2": 0.6216,
+        "jaccard_w2": 0.2569,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1081,
+        "n_compound_feats": 74,
+        "n_word2_iso_feats": 63,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.6429,
+        "jaccard_w2": 0.2439,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.131,
+        "n_compound_feats": 84,
+        "n_word2_iso_feats": 69,
+        "n_word1_comp_feats": 44,
+        "n_word1_iso_feats": 44
+      },
+      "11": {
+        "frac_unique_w2": 0.6951,
+        "jaccard_w2": 0.2119,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.122,
+        "n_compound_feats": 82,
+        "n_word2_iso_feats": 61,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      }
+    }
+  },
+  {
+    "word1": "hot",
+    "word2": "spring",
+    "normalized_association": 0.017,
+    "log_rank": 3.1179,
+    "priming_ratio": 99.63,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.55,
+        "jaccard_w2": 0.3462,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5185,
+        "jaccard_w2": 0.4333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4074,
+        "n_compound_feats": 27,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 18,
+        "n_word1_iso_feats": 18
+      },
+      "5": {
+        "frac_unique_w2": 0.6818,
+        "jaccard_w2": 0.2373,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2273,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.6957,
+        "jaccard_w2": 0.2561,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2029,
+        "n_compound_feats": 69,
+        "n_word2_iso_feats": 34,
+        "n_word1_comp_feats": 44,
+        "n_word1_iso_feats": 44
+      },
+      "11": {
+        "frac_unique_w2": 0.76,
+        "jaccard_w2": 0.1446,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 45,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      }
+    }
+  },
+  {
+    "word1": "hot",
+    "word2": "sauce",
+    "normalized_association": 0.1602,
+    "log_rank": 3.1946,
+    "priming_ratio": 941.14,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4167,
+        "jaccard_w2": 0.4667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.3478,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.6087,
+        "jaccard_w2": 0.3103,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3913,
+        "n_compound_feats": 23,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 18,
+        "n_word1_iso_feats": 18
+      },
+      "5": {
+        "frac_unique_w2": 0.641,
+        "jaccard_w2": 0.2692,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2308,
+        "n_compound_feats": 39,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.5593,
+        "jaccard_w2": 0.3133,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2034,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 50,
+        "n_word1_comp_feats": 44,
+        "n_word1_iso_feats": 44
+      },
+      "11": {
+        "frac_unique_w2": 0.4186,
+        "jaccard_w2": 0.4167,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1395,
+        "n_compound_feats": 43,
+        "n_word2_iso_feats": 42,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      }
+    }
+  },
+  {
+    "word1": "living",
+    "word2": "room",
+    "normalized_association": 0.7119,
+    "log_rank": 0.8755,
+    "priming_ratio": 2261.42,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3636,
+        "jaccard_w2": 0.5833,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5455,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.4211,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.6538,
+        "jaccard_w2": 0.2903,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2308,
+        "n_compound_feats": 26,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.8519,
+        "jaccard_w2": 0.1096,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1481,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 33,
+        "n_word1_iso_feats": 33
+      },
+      "8": {
+        "frac_unique_w2": 0.7313,
+        "jaccard_w2": 0.1818,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1493,
+        "n_compound_feats": 67,
+        "n_word2_iso_feats": 50,
+        "n_word1_comp_feats": 35,
+        "n_word1_iso_feats": 35
+      },
+      "11": {
+        "frac_unique_w2": 0.7931,
+        "jaccard_w2": 0.1277,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1724,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      }
+    }
+  },
+  {
+    "word1": "living",
+    "word2": "wage",
+    "normalized_association": 1.0,
+    "log_rank": 2.7213,
+    "priming_ratio": 3176.8,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2727,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5455,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.2667,
+        "jaccard_w2": 0.5789,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5333,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.2857,
+        "jaccard_w2": 0.625,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5238,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.6818,
+        "jaccard_w2": 0.2333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2727,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 30,
+        "n_word1_comp_feats": 33,
+        "n_word1_iso_feats": 33
+      },
+      "8": {
+        "frac_unique_w2": 0.6774,
+        "jaccard_w2": 0.2198,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1129,
+        "n_compound_feats": 62,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 35,
+        "n_word1_iso_feats": 35
+      },
+      "11": {
+        "frac_unique_w2": 0.7692,
+        "jaccard_w2": 0.1596,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0923,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 44,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      }
+    }
+  },
+  {
+    "word1": "living",
+    "word2": "standard",
+    "normalized_association": 0.0015,
+    "log_rank": 5.2923,
+    "priming_ratio": 4.9,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3,
+        "jaccard_w2": 0.5385,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.2857,
+        "jaccard_w2": 0.5882,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6429,
+        "n_compound_feats": 14,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5217,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.35,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.7872,
+        "jaccard_w2": 0.1538,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2128,
+        "n_compound_feats": 47,
+        "n_word2_iso_feats": 28,
+        "n_word1_comp_feats": 33,
+        "n_word1_iso_feats": 33
+      },
+      "8": {
+        "frac_unique_w2": 0.7971,
+        "jaccard_w2": 0.1474,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1159,
+        "n_compound_feats": 69,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 35,
+        "n_word1_iso_feats": 35
+      },
+      "11": {
+        "frac_unique_w2": 0.7231,
+        "jaccard_w2": 0.1513,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1077,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 72,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      }
+    }
+  },
+  {
+    "word1": "living",
+    "word2": "conditions",
+    "normalized_association": 0.0243,
+    "log_rank": 7.5143,
+    "priming_ratio": 77.24,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4545,
+        "jaccard_w2": 0.4615,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5455,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.4737,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5926,
+        "jaccard_w2": 0.3548,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2593,
+        "n_compound_feats": 27,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.75,
+        "jaccard_w2": 0.1944,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1964,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 30,
+        "n_word1_comp_feats": 33,
+        "n_word1_iso_feats": 33
+      },
+      "8": {
+        "frac_unique_w2": 0.6203,
+        "jaccard_w2": 0.2609,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1013,
+        "n_compound_feats": 79,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 35,
+        "n_word1_iso_feats": 35
+      },
+      "11": {
+        "frac_unique_w2": 0.6479,
+        "jaccard_w2": 0.2358,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0563,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 60,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      }
+    }
+  },
+  {
+    "word1": "brick",
+    "word2": "house",
+    "normalized_association": 0.0384,
+    "log_rank": 2.4069,
+    "priming_ratio": 77.08,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.3529,
+        "jaccard_w2": 0.6111,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4706,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.4762,
+        "jaccard_w2": 0.4583,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.381,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 17,
+        "n_word1_iso_feats": 17
+      },
+      "5": {
+        "frac_unique_w2": 0.7843,
+        "jaccard_w2": 0.1594,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1765,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.76,
+        "jaccard_w2": 0.1782,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1467,
+        "n_compound_feats": 75,
+        "n_word2_iso_feats": 44,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      },
+      "11": {
+        "frac_unique_w2": 0.5873,
+        "jaccard_w2": 0.2989,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2222,
+        "n_compound_feats": 63,
+        "n_word2_iso_feats": 50,
+        "n_word1_comp_feats": 58,
+        "n_word1_iso_feats": 58
+      }
+    }
+  },
+  {
+    "word1": "brick",
+    "word2": "wall",
+    "normalized_association": 1.0,
+    "log_rank": 0.6931,
+    "priming_ratio": 2007.18,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.2353,
+        "jaccard_w2": 0.7222,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5294,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5238,
+        "jaccard_w2": 0.4,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4286,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 17,
+        "n_word1_iso_feats": 17
+      },
+      "5": {
+        "frac_unique_w2": 0.82,
+        "jaccard_w2": 0.1406,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.22,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 23,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.7342,
+        "jaccard_w2": 0.2143,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2152,
+        "n_compound_feats": 79,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      },
+      "11": {
+        "frac_unique_w2": 0.7105,
+        "jaccard_w2": 0.2178,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1842,
+        "n_compound_feats": 76,
+        "n_word2_iso_feats": 47,
+        "n_word1_comp_feats": 58,
+        "n_word1_iso_feats": 58
+      }
+    }
+  },
+  {
+    "word1": "brick",
+    "word2": "layer",
+    "normalized_association": 0.0442,
+    "log_rank": 6.0271,
+    "priming_ratio": 88.72,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.0909,
+        "jaccard_w2": 0.8333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.2857,
+        "jaccard_w2": 0.5882,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5714,
+        "n_compound_feats": 14,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.4783,
+        "jaccard_w2": 0.48,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3913,
+        "n_compound_feats": 23,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 17,
+        "n_word1_iso_feats": 17
+      },
+      "5": {
+        "frac_unique_w2": 0.8167,
+        "jaccard_w2": 0.1447,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1833,
+        "n_compound_feats": 60,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.2188,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1746,
+        "n_compound_feats": 63,
+        "n_word2_iso_feats": 54,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      },
+      "11": {
+        "frac_unique_w2": 0.6207,
+        "jaccard_w2": 0.25,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2241,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 58,
+        "n_word1_iso_feats": 58
+      }
+    }
+  },
+  {
+    "word1": "brick",
+    "word2": "road",
+    "normalized_association": 0.01,
+    "log_rank": 3.541,
+    "priming_ratio": 20.07,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2727,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.25,
+        "jaccard_w2": 0.6818,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.45,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.5455,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4444,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 17,
+        "n_word1_iso_feats": 17
+      },
+      "5": {
+        "frac_unique_w2": 0.7931,
+        "jaccard_w2": 0.16,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1552,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.6786,
+        "jaccard_w2": 0.2571,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2024,
+        "n_compound_feats": 84,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      },
+      "11": {
+        "frac_unique_w2": 0.5513,
+        "jaccard_w2": 0.3763,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1795,
+        "n_compound_feats": 78,
+        "n_word2_iso_feats": 50,
+        "n_word1_comp_feats": 58,
+        "n_word1_iso_feats": 58
+      }
+    }
+  },
+  {
+    "word1": "mountain",
+    "word2": "cabin",
+    "normalized_association": 0.1812,
+    "log_rank": 5.0039,
+    "priming_ratio": 190.78,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.75,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2963,
+        "n_compound_feats": 27,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.6,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.45,
+        "jaccard_w2": 0.4074,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.6615,
+        "jaccard_w2": 0.2785,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1538,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 36,
+        "n_word1_comp_feats": 25,
+        "n_word1_iso_feats": 25
+      },
+      "8": {
+        "frac_unique_w2": 0.4225,
+        "jaccard_w2": 0.4457,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2254,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 62,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.44,
+        "jaccard_w2": 0.3818,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2133,
+        "n_compound_feats": 75,
+        "n_word2_iso_feats": 77,
+        "n_word1_comp_feats": 45,
+        "n_word1_iso_feats": 45
+      }
+    }
+  },
+  {
+    "word1": "mountain",
+    "word2": "bike",
+    "normalized_association": 1.0,
+    "log_rank": 2.1748,
+    "priming_ratio": 1052.71,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4167,
+        "jaccard_w2": 0.5385,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6667,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.4,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.5909,
+        "jaccard_w2": 0.3333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4091,
+        "n_compound_feats": 22,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.7458,
+        "jaccard_w2": 0.2174,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1525,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 25,
+        "n_word1_comp_feats": 25,
+        "n_word1_iso_feats": 25
+      },
+      "8": {
+        "frac_unique_w2": 0.614,
+        "jaccard_w2": 0.275,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2632,
+        "n_compound_feats": 57,
+        "n_word2_iso_feats": 45,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.5424,
+        "jaccard_w2": 0.3333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3051,
+        "n_compound_feats": 59,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 45,
+        "n_word1_iso_feats": 45
+      }
+    }
+  },
+  {
+    "word1": "mountain",
+    "word2": "lion",
+    "normalized_association": 0.301,
+    "log_rank": 2.5953,
+    "priming_ratio": 316.88,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.4375,
+        "jaccard_w2": 0.4286,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.4286,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 24,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.7442,
+        "jaccard_w2": 0.193,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1628,
+        "n_compound_feats": 43,
+        "n_word2_iso_feats": 25,
+        "n_word1_comp_feats": 25,
+        "n_word1_iso_feats": 25
+      },
+      "8": {
+        "frac_unique_w2": 0.6709,
+        "jaccard_w2": 0.2342,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1392,
+        "n_compound_feats": 79,
+        "n_word2_iso_feats": 58,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.4167,
+        "jaccard_w2": 0.3256,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2292,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 45,
+        "n_word1_iso_feats": 45
+      }
+    }
+  },
+  {
+    "word1": "mountain",
+    "word2": "range",
+    "normalized_association": 0.1433,
+    "log_rank": 2.0794,
+    "priming_ratio": 150.86,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4545,
+        "jaccard_w2": 0.4615,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5455,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 10,
+        "n_word1_iso_feats": 10
+      },
+      "1": {
+        "frac_unique_w2": 0.5714,
+        "jaccard_w2": 0.375,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.68,
+        "jaccard_w2": 0.25,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.24,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.8654,
+        "jaccard_w2": 0.0972,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1923,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 25,
+        "n_word1_iso_feats": 25
+      },
+      "8": {
+        "frac_unique_w2": 0.8333,
+        "jaccard_w2": 0.1132,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2222,
+        "n_compound_feats": 72,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.8148,
+        "jaccard_w2": 0.1075,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2593,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 45,
+        "n_word1_iso_feats": 45
+      }
+    }
+  },
+  {
+    "word1": "garden",
+    "word2": "hose",
+    "normalized_association": 1.0,
+    "log_rank": 2.4849,
+    "priming_ratio": 8468.64,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.0714,
+        "jaccard_w2": 0.9155,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0714,
+        "n_compound_feats": 70,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.0577,
+        "jaccard_w2": 0.875,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1538,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 53,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "2": {
+        "frac_unique_w2": 0.1778,
+        "jaccard_w2": 0.7255,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1333,
+        "n_compound_feats": 45,
+        "n_word2_iso_feats": 43,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.3956,
+        "jaccard_w2": 0.5392,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0989,
+        "n_compound_feats": 91,
+        "n_word2_iso_feats": 66,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.3571,
+        "jaccard_w2": 0.5122,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2143,
+        "n_compound_feats": 98,
+        "n_word2_iso_feats": 88,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.5263,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3067,
+        "n_compound_feats": 75,
+        "n_word2_iso_feats": 70,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      }
+    }
+  },
+  {
+    "word1": "garden",
+    "word2": "shed",
+    "normalized_association": 0.4391,
+    "log_rank": 3.1612,
+    "priming_ratio": 3718.34,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.1111,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4444,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.4706,
+        "jaccard_w2": 0.4286,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4118,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "2": {
+        "frac_unique_w2": 0.6774,
+        "jaccard_w2": 0.2857,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1935,
+        "n_compound_feats": 31,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.7183,
+        "jaccard_w2": 0.2151,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0986,
+        "n_compound_feats": 71,
+        "n_word2_iso_feats": 42,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.4706,
+        "jaccard_w2": 0.3689,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2353,
+        "n_compound_feats": 85,
+        "n_word2_iso_feats": 82,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.5072,
+        "jaccard_w2": 0.3301,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2609,
+        "n_compound_feats": 69,
+        "n_word2_iso_feats": 68,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      }
+    }
+  },
+  {
+    "word1": "garden",
+    "word2": "fence",
+    "normalized_association": 0.041,
+    "log_rank": 4.6131,
+    "priming_ratio": 347.46,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.0909,
+        "jaccard_w2": 0.7692,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3636,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5333,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "2": {
+        "frac_unique_w2": 0.4737,
+        "jaccard_w2": 0.4,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4211,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.7292,
+        "jaccard_w2": 0.2097,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1667,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.3788,
+        "jaccard_w2": 0.4713,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3182,
+        "n_compound_feats": 66,
+        "n_word2_iso_feats": 62,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.459,
+        "jaccard_w2": 0.4074,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2951,
+        "n_compound_feats": 61,
+        "n_word2_iso_feats": 53,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      }
+    }
+  },
+  {
+    "word1": "garden",
+    "word2": "party",
+    "normalized_association": 0.001,
+    "log_rank": 4.3707,
+    "priming_ratio": 8.42,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.1111,
+        "jaccard_w2": 0.8,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4444,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.25,
+        "jaccard_w2": 0.6,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "2": {
+        "frac_unique_w2": 0.2353,
+        "jaccard_w2": 0.65,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4706,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.8302,
+        "jaccard_w2": 0.1406,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1321,
+        "n_compound_feats": 53,
+        "n_word2_iso_feats": 20,
+        "n_word1_comp_feats": 27,
+        "n_word1_iso_feats": 27
+      },
+      "8": {
+        "frac_unique_w2": 0.8,
+        "jaccard_w2": 0.1566,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3077,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 31,
+        "n_word1_comp_feats": 43,
+        "n_word1_iso_feats": 43
+      },
+      "11": {
+        "frac_unique_w2": 0.7321,
+        "jaccard_w2": 0.1829,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3214,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 41,
+        "n_word1_comp_feats": 50,
+        "n_word1_iso_feats": 50
+      }
+    }
+  },
+  {
+    "word1": "water",
+    "word2": "bottle",
+    "normalized_association": 0.2818,
+    "log_rank": 2.8094,
+    "priming_ratio": 2916.62,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2308,
+        "jaccard_w2": 0.7692,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4615,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.5294,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.45,
+        "jaccard_w2": 0.4783,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.45,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "5": {
+        "frac_unique_w2": 0.6444,
+        "jaccard_w2": 0.2857,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2444,
+        "n_compound_feats": 45,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.6333,
+        "jaccard_w2": 0.2529,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2667,
+        "n_compound_feats": 60,
+        "n_word2_iso_feats": 49,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      },
+      "11": {
+        "frac_unique_w2": 0.5111,
+        "jaccard_w2": 0.3607,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3111,
+        "n_compound_feats": 45,
+        "n_word2_iso_feats": 38,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "water",
+    "word2": "supply",
+    "normalized_association": 0.0596,
+    "log_rank": 2.1282,
+    "priming_ratio": 616.98,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.4211,
+        "jaccard_w2": 0.44,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4211,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5217,
+        "jaccard_w2": 0.3438,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3043,
+        "n_compound_feats": 23,
+        "n_word2_iso_feats": 20,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "5": {
+        "frac_unique_w2": 0.8704,
+        "jaccard_w2": 0.0946,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1481,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.7714,
+        "jaccard_w2": 0.1584,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2714,
+        "n_compound_feats": 70,
+        "n_word2_iso_feats": 47,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      },
+      "11": {
+        "frac_unique_w2": 0.7761,
+        "jaccard_w2": 0.1402,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2836,
+        "n_compound_feats": 67,
+        "n_word2_iso_feats": 55,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "water",
+    "word2": "heater",
+    "normalized_association": 1.0,
+    "log_rank": 2.2925,
+    "priming_ratio": 10348.79,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.0617,
+        "jaccard_w2": 0.8837,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0617,
+        "n_compound_feats": 81,
+        "n_word2_iso_feats": 81,
+        "n_word1_comp_feats": 7,
+        "n_word1_iso_feats": 7
+      },
+      "1": {
+        "frac_unique_w2": 0.1538,
+        "jaccard_w2": 0.7333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1154,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.1163,
+        "jaccard_w2": 0.6552,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1163,
+        "n_compound_feats": 43,
+        "n_word2_iso_feats": 53,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "5": {
+        "frac_unique_w2": 0.4306,
+        "jaccard_w2": 0.4141,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0833,
+        "n_compound_feats": 72,
+        "n_word2_iso_feats": 68,
+        "n_word1_comp_feats": 26,
+        "n_word1_iso_feats": 26
+      },
+      "8": {
+        "frac_unique_w2": 0.4048,
+        "jaccard_w2": 0.4545,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2381,
+        "n_compound_feats": 84,
+        "n_word2_iso_feats": 76,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      },
+      "11": {
+        "frac_unique_w2": 0.2778,
+        "jaccard_w2": 0.5342,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2963,
+        "n_compound_feats": 54,
+        "n_word2_iso_feats": 58,
+        "n_word1_comp_feats": 42,
+        "n_word1_iso_feats": 42
+      }
+    }
+  },
+  {
+    "word1": "steel",
+    "word2": "bridge",
+    "normalized_association": 0.0373,
+    "log_rank": 3.9778,
+    "priming_ratio": 61.5,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2727,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6364,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.2667,
+        "jaccard_w2": 0.7333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5333,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.4615,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.35,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.5833,
+        "jaccard_w2": 0.3333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.25,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 32,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.4531,
+        "jaccard_w2": 0.4321,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.25,
+        "n_compound_feats": 64,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.3836,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1607,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 45,
+        "n_word1_comp_feats": 55,
+        "n_word1_iso_feats": 55
+      }
+    }
+  },
+  {
+    "word1": "steel",
+    "word2": "frame",
+    "normalized_association": 0.3755,
+    "log_rank": 1.5892,
+    "priming_ratio": 618.48,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.7,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.4375,
+        "jaccard_w2": 0.45,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5714,
+        "jaccard_w2": 0.3462,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.84,
+        "jaccard_w2": 0.125,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.6716,
+        "jaccard_w2": 0.2418,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2985,
+        "n_compound_feats": 67,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.6429,
+        "jaccard_w2": 0.2667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2857,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 55,
+        "n_word1_iso_feats": 55
+      }
+    }
+  },
+  {
+    "word1": "steel",
+    "word2": "cage",
+    "normalized_association": 1.0,
+    "log_rank": 1.9741,
+    "priming_ratio": 1646.96,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.1818,
+        "jaccard_w2": 0.6923,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6364,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.1667,
+        "jaccard_w2": 0.7143,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6667,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.2381,
+        "jaccard_w2": 0.64,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4286,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 20,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.66,
+        "jaccard_w2": 0.2464,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.18,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 36,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.4762,
+        "jaccard_w2": 0.3929,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.254,
+        "n_compound_feats": 63,
+        "n_word2_iso_feats": 54,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.4688,
+        "jaccard_w2": 0.3864,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2812,
+        "n_compound_feats": 64,
+        "n_word2_iso_feats": 58,
+        "n_word1_comp_feats": 55,
+        "n_word1_iso_feats": 55
+      }
+    }
+  },
+  {
+    "word1": "steel",
+    "word2": "plate",
+    "normalized_association": 0.9056,
+    "log_rank": 2.6247,
+    "priming_ratio": 1491.49,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 9,
+        "n_word1_iso_feats": 9
+      },
+      "1": {
+        "frac_unique_w2": 0.35,
+        "jaccard_w2": 0.5417,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.55,
+        "jaccard_w2": 0.3462,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.35,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 14,
+        "n_word1_iso_feats": 14
+      },
+      "5": {
+        "frac_unique_w2": 0.7174,
+        "jaccard_w2": 0.197,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3043,
+        "n_compound_feats": 46,
+        "n_word2_iso_feats": 33,
+        "n_word1_comp_feats": 31,
+        "n_word1_iso_feats": 31
+      },
+      "8": {
+        "frac_unique_w2": 0.6731,
+        "jaccard_w2": 0.2267,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3846,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.7143,
+        "jaccard_w2": 0.2029,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3265,
+        "n_compound_feats": 49,
+        "n_word2_iso_feats": 34,
+        "n_word1_comp_feats": 55,
+        "n_word1_iso_feats": 55
+      }
+    }
+  },
+  {
+    "word1": "chocolate",
+    "word2": "cake",
+    "normalized_association": 0.4678,
+    "log_rank": 1.6487,
+    "priming_ratio": 1971.99,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3846,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4615,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.4444,
+        "jaccard_w2": 0.4762,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3889,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5263,
+        "jaccard_w2": 0.36,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3158,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "5": {
+        "frac_unique_w2": 0.8,
+        "jaccard_w2": 0.1373,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2286,
+        "n_compound_feats": 35,
+        "n_word2_iso_feats": 23,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.5778,
+        "jaccard_w2": 0.2568,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4444,
+        "n_compound_feats": 45,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.3415,
+        "jaccard_w2": 0.4091,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4878,
+        "n_compound_feats": 41,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 49,
+        "n_word1_iso_feats": 49
+      }
+    }
+  },
+  {
+    "word1": "chocolate",
+    "word2": "chip",
+    "normalized_association": 1.0,
+    "log_rank": 0.6419,
+    "priming_ratio": 4215.36,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3333,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.5556,
+        "jaccard_w2": 0.3478,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3889,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.625,
+        "jaccard_w2": 0.2647,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2083,
+        "n_compound_feats": 24,
+        "n_word2_iso_feats": 19,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "5": {
+        "frac_unique_w2": 0.803,
+        "jaccard_w2": 0.1625,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1212,
+        "n_compound_feats": 66,
+        "n_word2_iso_feats": 27,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.8587,
+        "jaccard_w2": 0.1032,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1957,
+        "n_compound_feats": 92,
+        "n_word2_iso_feats": 47,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.8182,
+        "jaccard_w2": 0.0899,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4318,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 53,
+        "n_word1_comp_feats": 49,
+        "n_word1_iso_feats": 49
+      }
+    }
+  },
+  {
+    "word1": "chocolate",
+    "word2": "factory",
+    "normalized_association": 0.0626,
+    "log_rank": 2.7473,
+    "priming_ratio": 263.87,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3636,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.375,
+        "jaccard_w2": 0.5263,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4375,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.6154,
+        "jaccard_w2": 0.303,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2308,
+        "n_compound_feats": 26,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "5": {
+        "frac_unique_w2": 0.625,
+        "jaccard_w2": 0.3051,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1458,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 29,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.5208,
+        "jaccard_w2": 0.2911,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2708,
+        "n_compound_feats": 48,
+        "n_word2_iso_feats": 54,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.5179,
+        "jaccard_w2": 0.3333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2321,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 52,
+        "n_word1_comp_feats": 49,
+        "n_word1_iso_feats": 49
+      }
+    }
+  },
+  {
+    "word1": "chocolate",
+    "word2": "bar",
+    "normalized_association": 0.1605,
+    "log_rank": 0.4055,
+    "priming_ratio": 676.62,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2,
+        "jaccard_w2": 0.6154,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 11,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.56,
+        "jaccard_w2": 0.4074,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.28,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.4545,
+        "jaccard_w2": 0.4444,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2727,
+        "n_compound_feats": 22,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 11,
+        "n_word1_iso_feats": 11
+      },
+      "5": {
+        "frac_unique_w2": 0.7727,
+        "jaccard_w2": 0.1786,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1364,
+        "n_compound_feats": 44,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 32,
+        "n_word1_iso_feats": 32
+      },
+      "8": {
+        "frac_unique_w2": 0.7451,
+        "jaccard_w2": 0.1757,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3333,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 36,
+        "n_word1_comp_feats": 41,
+        "n_word1_iso_feats": 41
+      },
+      "11": {
+        "frac_unique_w2": 0.7447,
+        "jaccard_w2": 0.1667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4043,
+        "n_compound_feats": 47,
+        "n_word2_iso_feats": 37,
+        "n_word1_comp_feats": 49,
+        "n_word1_iso_feats": 49
+      }
+    }
+  },
+  {
+    "word1": "door",
+    "word2": "handle",
+    "normalized_association": 1.0,
+    "log_rank": 3.7353,
+    "priming_ratio": 235.15,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.25,
+        "jaccard_w2": 0.6923,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.4118,
+        "jaccard_w2": 0.4762,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4118,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.6071,
+        "jaccard_w2": 0.3548,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2857,
+        "n_compound_feats": 28,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.7857,
+        "jaccard_w2": 0.1333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1786,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.6622,
+        "jaccard_w2": 0.2119,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2297,
+        "n_compound_feats": 74,
+        "n_word2_iso_feats": 69,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.4655,
+        "jaccard_w2": 0.3444,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2759,
+        "n_compound_feats": 58,
+        "n_word2_iso_feats": 63,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      }
+    }
+  },
+  {
+    "word1": "door",
+    "word2": "bell",
+    "normalized_association": 0.105,
+    "log_rank": 5.3982,
+    "priming_ratio": 24.7,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.4615,
+        "jaccard_w2": 0.4667,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3846,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.3571,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4286,
+        "n_compound_feats": 14,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.2353,
+        "jaccard_w2": 0.619,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5882,
+        "n_compound_feats": 17,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.7273,
+        "jaccard_w2": 0.2206,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2182,
+        "n_compound_feats": 55,
+        "n_word2_iso_feats": 28,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.7037,
+        "jaccard_w2": 0.24,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2099,
+        "n_compound_feats": 81,
+        "n_word2_iso_feats": 43,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.26,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2692,
+        "n_compound_feats": 78,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      }
+    }
+  },
+  {
+    "word1": "door",
+    "word2": "frame",
+    "normalized_association": 0.9915,
+    "log_rank": 3.8712,
+    "priming_ratio": 233.14,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6,
+        "n_compound_feats": 10,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.4,
+        "jaccard_w2": 0.4737,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4667,
+        "n_compound_feats": 15,
+        "n_word2_iso_feats": 13,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.5238,
+        "jaccard_w2": 0.4,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.381,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.8254,
+        "jaccard_w2": 0.1486,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1429,
+        "n_compound_feats": 63,
+        "n_word2_iso_feats": 22,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.7083,
+        "jaccard_w2": 0.2165,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1944,
+        "n_compound_feats": 72,
+        "n_word2_iso_feats": 46,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.6885,
+        "jaccard_w2": 0.2346,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2295,
+        "n_compound_feats": 61,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      }
+    }
+  },
+  {
+    "word1": "door",
+    "word2": "step",
+    "normalized_association": 0.0577,
+    "log_rank": 5.1293,
+    "priming_ratio": 13.57,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.5455,
+        "jaccard_w2": 0.3846,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4545,
+        "n_compound_feats": 11,
+        "n_word2_iso_feats": 7,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.0714,
+        "jaccard_w2": 0.7647,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.6429,
+        "n_compound_feats": 14,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 13,
+        "n_word1_iso_feats": 13
+      },
+      "2": {
+        "frac_unique_w2": 0.45,
+        "jaccard_w2": 0.5238,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 20,
+        "n_word2_iso_feats": 12,
+        "n_word1_comp_feats": 16,
+        "n_word1_iso_feats": 16
+      },
+      "5": {
+        "frac_unique_w2": 0.8,
+        "jaccard_w2": 0.1538,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.14,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 25,
+        "n_word1_comp_feats": 30,
+        "n_word1_iso_feats": 30
+      },
+      "8": {
+        "frac_unique_w2": 0.8116,
+        "jaccard_w2": 0.134,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1739,
+        "n_compound_feats": 69,
+        "n_word2_iso_feats": 41,
+        "n_word1_comp_feats": 47,
+        "n_word1_iso_feats": 47
+      },
+      "11": {
+        "frac_unique_w2": 0.7614,
+        "jaccard_w2": 0.1736,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2273,
+        "n_compound_feats": 88,
+        "n_word2_iso_feats": 54,
+        "n_word1_comp_feats": 48,
+        "n_word1_iso_feats": 48
+      }
+    }
+  },
+  {
+    "word1": "snow",
+    "word2": "man",
+    "normalized_association": 0.0081,
+    "log_rank": 4.1415,
+    "priming_ratio": 1.6,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.25,
+        "jaccard_w2": 0.6,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5,
+        "n_compound_feats": 16,
+        "n_word2_iso_feats": 16,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.2632,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3684,
+        "n_compound_feats": 19,
+        "n_word2_iso_feats": 17,
+        "n_word1_comp_feats": 12,
+        "n_word1_iso_feats": 12
+      },
+      "5": {
+        "frac_unique_w2": 0.7843,
+        "jaccard_w2": 0.1719,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.0784,
+        "n_compound_feats": 51,
+        "n_word2_iso_feats": 24,
+        "n_word1_comp_feats": 28,
+        "n_word1_iso_feats": 28
+      },
+      "8": {
+        "frac_unique_w2": 0.8333,
+        "jaccard_w2": 0.14,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.131,
+        "n_compound_feats": 84,
+        "n_word2_iso_feats": 30,
+        "n_word1_comp_feats": 40,
+        "n_word1_iso_feats": 40
+      },
+      "11": {
+        "frac_unique_w2": 0.7174,
+        "jaccard_w2": 0.1781,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1957,
+        "n_compound_feats": 46,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      }
+    }
+  },
+  {
+    "word1": "snow",
+    "word2": "storm",
+    "normalized_association": 1.0,
+    "log_rank": 3.5381,
+    "priming_ratio": 196.41,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.3846,
+        "jaccard_w2": 0.5333,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4615,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 10,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.2308,
+        "jaccard_w2": 0.4762,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5385,
+        "n_compound_feats": 13,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.44,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4091,
+        "n_compound_feats": 22,
+        "n_word2_iso_feats": 14,
+        "n_word1_comp_feats": 12,
+        "n_word1_iso_feats": 12
+      },
+      "5": {
+        "frac_unique_w2": 0.8,
+        "jaccard_w2": 0.1562,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.16,
+        "n_compound_feats": 50,
+        "n_word2_iso_feats": 24,
+        "n_word1_comp_feats": 28,
+        "n_word1_iso_feats": 28
+      },
+      "8": {
+        "frac_unique_w2": 0.6667,
+        "jaccard_w2": 0.2468,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.193,
+        "n_compound_feats": 57,
+        "n_word2_iso_feats": 39,
+        "n_word1_comp_feats": 40,
+        "n_word1_iso_feats": 40
+      },
+      "11": {
+        "frac_unique_w2": 0.6429,
+        "jaccard_w2": 0.2778,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1964,
+        "n_compound_feats": 56,
+        "n_word2_iso_feats": 36,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      }
+    }
+  },
+  {
+    "word1": "snow",
+    "word2": "board",
+    "normalized_association": 0.0258,
+    "log_rank": 4.6052,
+    "priming_ratio": 5.06,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.5,
+        "jaccard_w2": 0.4286,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4167,
+        "n_compound_feats": 12,
+        "n_word2_iso_feats": 8,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.3889,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.3889,
+        "n_compound_feats": 18,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.5517,
+        "jaccard_w2": 0.3824,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2414,
+        "n_compound_feats": 29,
+        "n_word2_iso_feats": 18,
+        "n_word1_comp_feats": 12,
+        "n_word1_iso_feats": 12
+      },
+      "5": {
+        "frac_unique_w2": 0.7674,
+        "jaccard_w2": 0.1538,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1163,
+        "n_compound_feats": 43,
+        "n_word2_iso_feats": 32,
+        "n_word1_comp_feats": 28,
+        "n_word1_iso_feats": 28
+      },
+      "8": {
+        "frac_unique_w2": 0.7308,
+        "jaccard_w2": 0.1867,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1731,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 37,
+        "n_word1_comp_feats": 40,
+        "n_word1_iso_feats": 40
+      },
+      "11": {
+        "frac_unique_w2": 0.8462,
+        "jaccard_w2": 0.0952,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2308,
+        "n_compound_feats": 52,
+        "n_word2_iso_feats": 40,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      }
+    }
+  },
+  {
+    "word1": "snow",
+    "word2": "fall",
+    "normalized_association": 0.0208,
+    "log_rank": 4.7203,
+    "priming_ratio": 4.09,
+    "layer_metrics": {
+      "0": {
+        "frac_unique_w2": 0.2222,
+        "jaccard_w2": 0.6364,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.5556,
+        "n_compound_feats": 9,
+        "n_word2_iso_feats": 9,
+        "n_word1_comp_feats": 8,
+        "n_word1_iso_feats": 8
+      },
+      "1": {
+        "frac_unique_w2": 0.4286,
+        "jaccard_w2": 0.5,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.4286,
+        "n_compound_feats": 21,
+        "n_word2_iso_feats": 15,
+        "n_word1_comp_feats": 15,
+        "n_word1_iso_feats": 15
+      },
+      "2": {
+        "frac_unique_w2": 0.48,
+        "jaccard_w2": 0.4194,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.32,
+        "n_compound_feats": 25,
+        "n_word2_iso_feats": 19,
+        "n_word1_comp_feats": 12,
+        "n_word1_iso_feats": 12
+      },
+      "5": {
+        "frac_unique_w2": 0.8615,
+        "jaccard_w2": 0.1034,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.1385,
+        "n_compound_feats": 65,
+        "n_word2_iso_feats": 31,
+        "n_word1_comp_feats": 28,
+        "n_word1_iso_feats": 28
+      },
+      "8": {
+        "frac_unique_w2": 0.7903,
+        "jaccard_w2": 0.134,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.2419,
+        "n_compound_feats": 62,
+        "n_word2_iso_feats": 48,
+        "n_word1_comp_feats": 40,
+        "n_word1_iso_feats": 40
+      },
+      "11": {
+        "frac_unique_w2": 0.7143,
+        "jaccard_w2": 0.1525,
+        "modifier_context_change": 1.0,
+        "frac_overlap_w1": 0.254,
+        "n_compound_feats": 63,
+        "n_word2_iso_feats": 73,
+        "n_word1_comp_feats": 34,
+        "n_word1_iso_feats": 34
+      }
+    }
+  }
+]
